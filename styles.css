@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #F2F2F2;
+    max-width: 1440px;
+    max-height:2185px;
+    margin: 0 auto 10px auto; 
+}
+
+.tablet , .mobile{
+    height: 0; width: 0; overflow: hidden;
+}
+
+.desktop{
+    width:max-content;
+    overflow:visible;
+    height: fit-content;
+}
+
+
+/* Font Families */
+
+.bold-font-l{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.bold-font-m{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.bold-font-sm{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.normal-font-m{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+/* Font Sizes */
+.bold-large-96{
+    font-size: 96px;
+    line-height: 88px;
+}
+
+.bold-large-70{
+    font-size: 70px;
+    line-height: 65px;
+}
+
+.bold-large-60{
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.bold-large-36{
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.bold-large-70{
+    font-size: 70px;
+    line-height: 70px;
+}
+
+.normal-size-22{
+    font-size: 22px;
+    line-height: 32px;  
+}
+
+.font-size-20{
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+}
+
+.normal-size-18{
+    font-size: 18px;
+    line-height: 28px;  
+}
+
+
+/* colors */
+.font-color-black{
+    color: #151515;
+}
+
+.font-color-gold{
+    color: #D5966C;
+}
+
+.font-color-white{
+    color:#FFFFFF;
+}
+
+.font-color-grey{
+    color:#444444;;
+}
