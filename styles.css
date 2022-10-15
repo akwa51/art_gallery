@@ -851,6 +851,12 @@ body{
         width:343px;
         margin:272px auto 30px auto;
     }
+
+    .inverted_colors{
+        background: none;
+        mix-blend-mode: normal;
+        color:#151515;
+    }
    
     .header_caption_img{
         width: 100vw;
@@ -1051,6 +1057,12 @@ body{
 
     .header_caption_img{
         width: 100vw;
+    }
+
+    .inverted_colors{
+        background: none;
+        mix-blend-mode: normal;
+        color:#151515;
     }
 
 
