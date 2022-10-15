@@ -11,9 +11,11 @@ This website showcases different art works exhibited. It has two main pages-
   This page has a map guide, as well as physical address providing directions to the arts exhibition center.
   At the bottom of this page is information on the social media links (facebook, Instagram and Twitter accounts).
 
-I endcountered a few challenges whilst placing items on the page, exactly according to the required specifications,though these have been resolved. 
+I encountered a few challenges whilst placing items on the page, exactly according to the required specifications,though these have been resolved. 
 The website has been developed using HTML and CSS only as tools. 
 
+#Deployment
+  This website has been deployed on GitHub with the following <a href="https://github.com/akwa51/art_gallery/edit/main/README.md">link </a> address 
 
 
 
