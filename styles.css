@@ -478,6 +478,10 @@ body{
         margin-right: 0px;
     }
 
+    .inverted_colors{
+        mix-blend-mode: normal;
+        filter: invert(0);
+    }
 
     #header_caption1,#header_caption2{
         font-size: 70px;
@@ -691,6 +695,11 @@ body{
         margin-right: 0px;
     }
 
+    .inverted_colors{
+        mix-blend-mode: normal;
+        filter: invert(0);
+    }
+
     #header_caption1,#header_caption2{
         font-size: 70px;
         line-height: 65px; 
@@ -853,9 +862,8 @@ body{
     }
 
     .inverted_colors{
-        background: none;
         mix-blend-mode: normal;
-        color:#151515;
+        filter: invert(0);
     }
    
     .header_caption_img{
@@ -1060,9 +1068,8 @@ body{
     }
 
     .inverted_colors{
-        background: none;
         mix-blend-mode: normal;
-        color:#151515;
+        filter: invert(0);
     }
 
 
