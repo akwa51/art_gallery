@@ -15,25 +15,26 @@ This website showcases different art works exhibited. It has two main pages-
   The website has been developed using HTML and CSS only as tools. 
 
 3. Deployment
-  This website has been deployed on GitHub with the following <a href="https://github.com/akwa51/art_gallery/edit/main/README.md">link </a> address 
+      This website has been deployed on GitHub with the following <a href="https://github.com/akwa51/art_gallery/edit/main/README.md">link </a> address 
  
 4. Site Usage
-  Once you login to the landing <a href="https://github.com/akwa51/art_gallery/edit/main/README.md">page</a>.
+      Once you login to the landing <a href="https://github.com/akwa51/art_gallery/edit/main/README.md">page</a>.
   
-  Explore the various artworks displayed on the site and click on the social links below to interact with the exhibition center.
-  
-  
-  click on the Locate Us button to be shown the page which has the physical site map address.
+      Explore the various artworks displayed on the site and click on the social links below to interact with the exhibition center.
   
   
-  Check out additional information on this Location site, or click on "Back to Home" button to return to the Gallery Home Page
+      click on the Locate Us button to be shown the page which has the physical site map address.
+  
+  
+      Check out additional information on this Location site, or click on "Back to Home" button to return to the Gallery Home Page
   
 
 5. Contributing Team
+      Akwasi Kusi-Appiah
 
 6. FAQs
- You can reach me on the following:
- email: akappiah@gmail.com 
+       You can reach me on the following <a href="akappiah@gmail.com">email</a>.:
+
    
 
 
