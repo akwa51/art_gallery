@@ -304,19 +304,11 @@ body{
 
 
 /* main footer */
-/* .footer_social_links{
-    display: inline-block;
-    margin-top: 80px;
-    margin-right: 165px;
-} */
 
 .footer_social_links{
     display: inline-block;
-    /* margin-top: 80px;
-    margin-right: 165px; */
     margin-left: 280px;
 }
-
 
 .social-media-spacing{
     margin-left:10px;
@@ -334,50 +326,25 @@ body{
 .social-media-main:hover{
     filter :invert(67%) sepia(59%) saturate(374%) hue-rotate(336deg) brightness(100%) contrast(100%);
 }
-.location-information{
-    width: 430px;
-    /* margin-top:80px; */
-    height:max-content;
-    margin-left:140.43px;
-}
+/* ........................... changes */
 
-
-/* .location-information{
-    width: 430px;
-    margin-top:80px;
-    height:max-content
-} */
-
-
-/* Location Page */
-#map_head_container{
-    height: 600px;
-    width: 1440px;
-}
-
-#map-button{
-    position: absolute;
-    top:0px;
-    left:156px;
+#address_container{
+    display: flex;
+    justify-content: space-evenly;   
+    padding-top: 104px;
+    padding-bottom: 128px;
+    margin:0 auto;
 }
 
 #main-location{
-    display: flex;
-    justify-content: space-between;
     background-color: #151515;
-    width: 1440px;
+    width: 100vw;
     height: 548px;
-    margin-top: 0px;
-}
-
-#address-group{
-    margin-right: 165px;
-    margin-top:104px;
 }
 
 #map-address{
     font-style: normal;
-    margin:24px 95px 32px 0px
+    margin:24px 0px 32px 0px
 }
 
 #map-gallery-paragraph{
@@ -387,38 +354,37 @@ body{
 
 #location-header{
     width: 350px;
-    margin-left: 165px;
-    margin-top:104px;
+    margin-left: 0px;
+    margin-top:0px;
 }
 
 #address-header{
     margin-top:0px;
 }
 
-/* 17 Oct 2022 Modification */
-/* ....................................................... */
-/* #map-footer-container,
-#footer_container{
-    display: flex;
-    justify-content: space-between;
-    width: 100vw;
-    height: 244px;
-    margin:0px auto;
+/* .................................... */
 
-} */
+/* Location Page */
+#map_head_container{
+    height: auto;
+    width: 100vw;
+    font-size: 0;
+}
+
+#map-button{
+    position: absolute;
+    top:0px;
+    left:156px;
+}
 
 #map-footer-container,
 #footer_container{
-    /* display: flex; */
-    /* justify-content: space-between; */
     width: 100vw;
     height: 244px;
     margin:0 auto;
-
 }
 
 #footer1,#footer2{
-    /* position: absolute; */
     display: flex;
     justify-content: space-between;
     width: fit-content;
@@ -433,27 +399,138 @@ body{
 }
 
 .footer-head-text-position{
-    max-width: 170px;
-    /* margin-top: 80px; */
-    /* margin-left: 165px; */
+    width: 170px;
     height: 58px;
 }
 
-/* .footer-head-text-position{
-    max-width: 170px;
-    margin-top: 80px;
-    margin-left: 165px;
-    height: max-content;
-} */
 
+        
+#address-group{
+    margin-right: 0px;
+    margin-top:0px;
+    margin-left: 100px;
+}
+    
 
-/* ................................ */
+.location-information{
+    width: 430px;
+    height:max-content;
+    margin-left:135px;
+}
+
 
 #footer_container{
     background: #151515;
 }
 
 /* Break Points */
+
+/* Tablet Mode3 */
+@media screen and (max-width:1280px){
+
+        /* device mode content selectors */
+    .tablet,.mobile,#grid_caption1,
+    #grid_caption2,#img_tablet1,#img_mobile1,
+    #img_tablet2,#img_mobile2,#img_tablet3,#img_mobile3{
+        height: 0; width: 0; overflow: hidden;
+    }
+
+    .desktop,#gallery_grid_caption,#img_desktop1
+    #img_desktop2,#img_desktop3{
+        width:max-content;
+        overflow:visible;
+        height: fit-content;
+    }
+
+
+    #head_container1{
+        display: flex;
+        position:absolute;
+        margin-top: 190px;
+        margin-left:85px;
+        margin-right:auto;
+    }
+
+    #head_caption_placeholder{
+        width: 370px;
+    }
+
+
+    #gallery_grid_caption{ 
+        color: #151515;
+        margin: 0px;
+        width: 350px;
+    }
+
+
+    #map_head_container{
+        height: auto;
+        width: 100vw;
+        font-size: 0;
+    }
+    
+    #map-button{
+        position: absolute;
+        top:0px;
+        left:110px;
+    }
+
+   .top-img-1>img{
+        width: 100vw;
+    }
+
+    #address_container{
+        display: flex;
+        justify-content: space-around;   
+        padding-top: 104px;
+        padding-bottom: 128px;
+        margin:0 auto;
+    }
+
+    #main-location{
+        background-color: #151515;
+        width: 100vw;
+        height: 548px;
+    }
+    
+    #address-group{
+        margin-right: 0px;
+        margin-top:0px;
+        margin-left:0px;
+    }
+    
+    #map-address{
+        font-style: normal;
+        margin:24px 0px 32px 0px
+    }
+    
+    #map-gallery-paragraph{
+        width:540px;
+    }
+    
+    
+    #location-header{
+        width: 350px;
+        margin-left: 0px;
+        margin-top:0px;
+    }
+    
+    #address-header{
+        margin-top:0px;
+    }
+
+    .location-information{
+        width: 430px;
+        height:max-content;
+        margin-left:135px;
+    }
+    
+
+
+
+}
+
+
 
 /* Tablet Mode2 */
 @media screen and (min-width:870px) and (max-width:1100px){
@@ -481,18 +558,28 @@ body{
     #address-group{
         width: 398px;
         height:268px;
-        margin: 88px 40px 0px 0px;
+        margin: 0px;
+        margin-left: 0px;
     }
 
     #map-button{
-        left:39px;
+        left:89px;
+    }
+
+    #address_container{
+        display: flex;
+        justify-content: space-around;   
+        padding-top: 88px;
+        padding-bottom: 80px;
+        margin:0 auto;
     }
 
     #location-header{
         font-size: 55px;
         line-height: 50px; 
-        margin: 88px 68px 0px 39px;
+        margin: 0px;
         height:100px;
+        width: 250px;
     }
 
     #address-header{
@@ -519,13 +606,13 @@ body{
     /* Gallery Page */
     #div_header_tablet_img{
         height: fit-content;
-        width:505px;
+        width:580px;
         font-size: 0;
     }
 
     #div_header_tablet_img>img{
-        height: 800px;
-        width:505px;
+        height: auto;
+        width:580px;
     }
 
     #header_caption{
@@ -563,9 +650,12 @@ body{
 
     #head_container1{
         flex-direction: column;
-        margin-top:225px;
-        margin-left:460px;
+        margin-top:195px;
+        margin-left:520px;
     }
+
+
+
 
 
     /* Grid Section */
@@ -574,7 +664,7 @@ body{
         width: 810px;
         height: auto;
         gap:11px;
-        margin:120px auto;
+        margin:350px auto 120 auto;
 
         grid-template-columns: 345px 1fr;
         grid-template-rows: 405px 335px auto;
@@ -643,42 +733,12 @@ body{
     }
 
    
-     /* Footer Section  */
-     #footer_container,#map-footer-container
-     {
-        width: 100vw;
-        height:216px;
-    }
-
-    /* #main-footer-information,
-    #footer-location-information{
-        font-size:16px;
-        line-height:26px;
-
-        width: 281px;
-        height: 104px;
-        margin:56px auto auto 120px;
-    }
-
-    .footer_social_links
+/* Footer Section  */
+    #footer_container,#map-footer-container
     {
-        margin-right: 40px;
+    width: 100vw;
+    height:216px;
     }
-
-    #main-footer_head_text,#map-footer-text{
-        margin:56px 11px auto 39px;
-        font-size:24px;
-        line-height: 26px;
-
-        width:113.06px;
-        height:40px;
-    }
-
-    .footer_social_links{
-        margin:56px 39px auto auto;
-    } */
-
-/* 17 Oct 2022.... Footer Modifications */
 
 #footer1,#footer2{
     width: fit-content;
@@ -695,17 +755,9 @@ body{
     width: 281px;
     height: 104px;
     margin-left:180px;
-    /* margin:56px auto auto 120px; */
-
 }
 
-/* .footer_social_links
-{
-    margin-right: 40px;
-} */
-
 #main-footer_head_text,#map-footer-text{
-    /* margin:56px 11px auto 39px; */
     font-size:24px;
     line-height: 26px;
 
@@ -745,10 +797,19 @@ body{
         height: fit-content;
     }
 
+    #address_container{
+        display: flex;
+        justify-content: space-evenly;   
+        padding-top: 88px;
+        padding-bottom: 80px;
+        margin:0 auto;
+    }
+
+
     #address-group{
         width: 398px;
         height:268px;
-        margin: 88px 40px 0px 0px;
+        margin: 0px;
     }
 
     #map-button{
@@ -758,8 +819,9 @@ body{
     #location-header{
         font-size: 55px;
         line-height: 50px; 
-        margin: 88px 68px 0px 39px;
+        margin: 0px;
         height:100px;
+        width: 250px;
     }
 
     #address-header{
@@ -906,17 +968,6 @@ body{
         margin: 0 auto;
     }
 
-
-    /* #main-footer-information,
-    #footer-location-information{
-        font-size:16px;
-        line-height:26px;
-
-        width: 281px;
-        height: 104px;
-        margin:56px auto auto 60px;
-    } */
-
     #main-footer-information,
     #footer-location-information{
         font-size:16px;
@@ -924,7 +975,7 @@ body{
 
         width: 281px;
         height: 104px;
-        margin-left:64px;
+        margin-left:68px;
     }
 /* ................................................ */
 
@@ -938,14 +989,6 @@ body{
         margin-left: 133px;
     }
 
-    /* #main-footer_head_text,#map-footer-text{
-        margin:56px 11px auto 39px;
-        font-size:24px;
-        line-height: 26px;
-
-        width:113.06px;
-        height:40px;
-    } */
 
     #main-footer_head_text,#map-footer-text{
         font-size:24px;
@@ -954,13 +997,7 @@ body{
         width:113.06px;
         height:40px;
     }
-/* 
-    .footer_social_links{
-        margin:56px 39px auto auto;
-    } */
 
-
-    /* ........17 oct 2022 */
 }
 
 /* Mobile Mode 1 */
@@ -1085,43 +1122,10 @@ body{
         width:295px; height:84px;
     }
 
-    /* #main-footer_head_text, #map-footer-text{
-        margin:48px 232.95px 38px 32px;
-        height:40px; width:112px;
-        font-size:24px;
-        line-height: 22px;
-    }
-
-
-    #main-footer-information,
-    #footer-location-information{
-        font-size:16px;
-        line-height: 26px;
-        width:311px; height:104px;
-        margin:0px 32px 38px 32px;
-    }
-
-    .footer_social_links{
-        margin:0px 30px 48px 32px; 
-    } */
-
-
-    /* #footer_container,#map-footer-container{
-        width:100vw;
-        height:auto;
-        flex-direction: column;
-        margin:0px auto;
-    } */
-
-    /* 17 Oct 2022 */
-
-    /* ........................ */
 
     #footer_container,#map-footer-container{
         width:100vw;
         height:auto;
-        /* flex-direction: column; */
-        /* margin:0px auto; */
     }
 
     #footer1,#footer2{
@@ -1176,20 +1180,29 @@ body{
         width:100vw;
     }
 
+
+    #address_container{
+        flex-direction: column;
+        padding-top: 48px;
+        padding-bottom: 56px;
+        width: 343px;
+        margin:0 auto;
+    }
+
+
     #main-location{
         width:100vw; height:493px;
-        flex-direction: column;
     }
 
     #location-header{
         font-size: 50px;
         line-height: 45px;
-        margin: 48px auto;
+        margin: 0 0 48px 0;
         width:343px; height:45px;
     }
 
     #address-group{
-        margin:0px auto 56px auto;
+        margin:0px;
         width: 343px; height: 296px;
     }
 
@@ -1341,7 +1354,6 @@ body{
         width:350px; height:84px;
     }
 
-    /* 17 Oct 2022 */
 
     /* ........................................ */
     #footer_container,#map-footer-container{
@@ -1377,33 +1389,6 @@ body{
         margin:0px; 
     }
 
-    /* /.......................................... */
-
-    /* #footer_container,#map-footer-container{
-        width:100vw;
-        height:auto;
-        flex-direction: column;
-        margin:0px auto;
-    }
-
-    #main-footer_head_text, #map-footer-text{
-        margin:48px auto 38px 60px;
-        height:40px; width:112px;
-        font-size:24px;
-        line-height: 22px;
-    }
-
-    #main-footer-information,
-    #footer-location-information{
-        font-size:16px;
-        line-height: 26px;
-        width:311px; height:104px;
-        margin: 0px 32px 38px 60px;
-    }
-
-    .footer_social_links{
-        margin:0px 30px 48px 60px; 
-    } */
 
 
     /* Location Page */
@@ -1421,20 +1406,27 @@ body{
         width:100vw;
     }
 
+    #address_container{
+        flex-direction: column;
+        padding-top: 48px;
+        padding-bottom: 56px;
+        width: 80vw;
+        margin:0 auto;
+    }
+
     #main-location{
         width:100vw; height:493px;
-        flex-direction: column;
     }
 
     #location-header{
         font-size: 50px;
         line-height: 45px;
-        margin: 48px auto;
+        margin-bottom:48px;
         width: 80vw; height:45px;
     }
 
     #address-group{
-        margin:0px auto 56px auto;
+        margin:0px;
         width: 80vw; height: 296px;
     }
 
@@ -1584,8 +1576,7 @@ body{
     }
 
     
-    /* 17 Oct 2022 */
-
+    
     /* ........................ */
 
     #footer_container,#map-footer-container{
@@ -1644,20 +1635,29 @@ body{
         width:100vw;
     }
 
+    
+    #address_container{
+        flex-direction: column;
+        padding-top: 48px;
+        padding-bottom: 56px;
+        width: 340px;
+        margin:0 auto;
+    }
+
+
     #main-location{
         width:100vw; height:493px;
-        flex-direction: column;
     }
 
     #location-header{
         font-size: 50px;
         line-height: 45px;
-        margin: 48px auto;
+        margin: 0 0 48px 0;
         width:340px; height:45px;
     }
 
     #address-group{
-        margin:0px auto 56px auto;
+        margin:0px;
         width: 340px; height: 296px;
     }
 
@@ -1808,9 +1808,7 @@ body{
     }
 
     
-    /* 17 Oct 2022 */
-
-    /* ........................ */
+    
 
     #footer_container,#map-footer-container{
         width:100vw;
@@ -1826,7 +1824,6 @@ body{
     }
 
 
-    /* .......................... */
 
     #main-footer_head_text, #map-footer-text{
         margin:0px 0px 38px 0px;
@@ -1867,21 +1864,28 @@ body{
         height:fit-content;
         width:100vw;
     }
+    
+    #address_container{
+        flex-direction: column;
+        padding-top: 48px;
+        padding-bottom: 56px;
+        width: 252px;
+        margin:0 auto;
+    }
 
     #main-location{
         width:100vw; height:493px;
-        flex-direction: column;
     }
 
     #location-header{
         font-size: 45px;
         line-height: 45px;
-        margin: 48px auto;
+        margin: 0 0 48px 0;
         width:252px; height:45px;
     }
 
     #address-group{
-        margin:0px auto 56px auto;
+        margin:0px;
         width: 252px; height: 296px;
     }
 
